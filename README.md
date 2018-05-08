@@ -9,6 +9,7 @@ the CSFML library.
 
 # Contributor of this project
 [Tichion](https://github.com/Tichion) - [Linkedin](https://www.linkedin.com/in/vincent-linet)
+
 [Etigma](https://github.com/Etigma) - [Linkdin](https://www.linkedin.com/in/paul-juyaux-9355a3133)
 
 # Notes
