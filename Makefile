@@ -49,14 +49,14 @@ CFLAGS	+=	-Wall -Wextra -g3 -Wpedantic -o3
 
 CPPFLAGS	=	-Iinclude
 
-LDLIBS	=	-lm -lc_graph_prog_full
+LDLIBS	=	-lm -lc_graph_prog
 
 NAME	=	tekadventure
 
 all:	$(NAME)
 
 $(NAME):	$(OBJ)
-	@gcc -o $(NAME) $(OBJ) -lc_graph_prog_full -lm
+	@$(CC) -o $(NAME) $(OBJ) -lc_graph_prog -lm
 	$(eval($(MAK) = 42))
 ifeq ($(MAK),)
 	@echo -e "\033[32m* * * * * COMPLETED * * * * *\033[0m"
